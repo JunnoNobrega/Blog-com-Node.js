@@ -1,0 +1,25 @@
+<!-- This is frontend homepage header -->
+<nav class="navbar navbar-expand-lg navbar-dark  bg-primary ">
+    <a class="navbar-brand" href="/">GuiaPress</a>
+
+    <div class="collapse navbar-collapse justify-content-start " id="navbarNav">
+        <ul class="navbar-nav w-100 mr-auto">
+            <li class="nav-item">
+                <a href="/" class="nav-link">Home</a>
+            </li>
+            <% categories.forEach(category => { %>
+                <li class="nav-item  ml-auto">
+                    <a href="/category/<%= category.slug %>" class="nav-link"><%= category.title %></a>
+                </li>
+            <% }) %>
+         
+        </ul>
+        <ul class="navbar-nav ">
+            <li class="nav-item ">
+                <a href="/login" class="nav-link">Login</a>
+            </li>
+        </ul>
+
+
+
+</nav>

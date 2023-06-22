@@ -1,0 +1,46 @@
+<%-include('../../partials/header.ejs')%>
+<%-include('../../partials/navbar.ejs')%>
+
+<div class="container">
+    <table class="table table-bordered w-100">
+        <thead>
+            <hr>
+            <h1>Usuários</h1>
+            <hr>
+            <tr>
+                <th>ID</th>
+                <th>Email</th>
+                <th>AÇÕES</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% users.forEach(user => { %>
+                <tr>
+                    <td><%= user.id %></td>
+                    <td><%= user.email %></td>
+                    <td class="d-flex justify-content-end">
+                        <a href="/admin/users/edit/<%= user.id%> " class="btn btn-warning mx-1 "> Editar</a>
+
+                        <form method="POST" action="/users/delete" style="display: inline;" onsubmit="confirmarDelete(event,this)" >
+                            <input type="hidden" name="id" value=" <%= user.id%>"> 
+                            <button class="btn btn-danger mr-1 "> Excluir</button>
+                        </form>
+                    </td>
+                </tr>
+                <% }) %>
+            </tbody>
+        </table>
+        <a class="btn btn-success " href="/admin/users/create" style="float:right;">Criar novo Usuário</a>
+    </div>
+<%- include('../../partials/footer.ejs')%>
+
+<script>
+    function confirmarDelete(event, form){
+        event.preventDefault();
+       var decision = confirm("Você realmente deseja remover o usuário? ");
+       if(decision){
+        form.submit();
+       }
+    }
+
+</script>
