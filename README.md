@@ -14,7 +14,7 @@ Projeto onde foi criado um blog utilizando o Node.js no backend e Bootstrap para
 <br>
 
 <p align="center">
-  <img alt="projeto Blog com Node.js" src=".github/GuiaPress_page-0001.jpg" width="50%">
+  <img alt="projeto Blog com Node.js" src=".github/GuiaPress_page-0001.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -54,6 +54,7 @@ Neste projeto foi realizado a criação de um Blog nele é possivel criar artigo
 <p align="center">
   <h1>Tela inicial.</h1>
   <p>Nesta tela é apresentado uma lista dos ultimos artigos criados. Nela também temos um jumbotron onde pos ser colocado uma mensagem personalisada na Homepage do Blog.</p>
+  <img alt="projeto Blog com Node.js" src="/.github/GuiaPress_page-0001.jpeg" width="50%">
   <img alt="Projeto Blog com Node.js" src="./GuiaPress_page-0001.jpeg" width="50%">
 </p>
 <p align="center">
