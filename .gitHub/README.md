@@ -25,18 +25,20 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Framework: Bootstrap
 - JavaScript
 - Node.js
-    Bibliotecas utilizadas no Node.js -
-     {
-        "bcryptjs": "^2.4.3",
-        "body-parser": "^1.20.2",
-        "ejs": "^3.1.9",
-        "express": "^4.18.2",
-        "express-session": "^1.17.3",
-        "mysql2": "^3.3.1",
-        "sequelize": "^6.31.1",
-        "slugify": "^1.6.6",
-        "tinymce": "^6.4.2"
-      }
+    Bibliotecas utilizadas no Node.js:
+      <code><br>
+        {<br>
+          "bcryptjs": "^2.4.3",<br>
+          "body-parser": "^1.20.2",<br>
+          "ejs": "^3.1.9",<br>
+          "express": "^4.18.2",<br>
+          "express-session": "^1.17.3",<br>
+          "mysql2": "^3.3.1",<br>
+          "sequelize": "^6.31.1",<br>
+          "slugify": "^1.6.6",<br>
+          "tinymce": "^6.4.2"<br>
+        }
+      </code>
 - Git e Github
 - Mysql
 
@@ -54,25 +56,28 @@ Neste projeto foi realizado a criação de um Blog nele é possivel criar artigo
 <p align="center">
   <h1>Tela inicial.</h1>
   <p>Nesta tela é apresentado uma lista dos ultimos artigos criados. Nela também temos um jumbotron onde pos ser colocado uma mensagem personalisada na Homepage do Blog.</p>
-  <img alt="projeto Blog com Node.js" src="/./GuiaPress_page-0001.jpeg" width="50%">
-  <img alt="Projeto Blog com Node.js" src="./GuiaPress_page-0001.jpeg" width="50%">
+  <img alt="projeto Blog com Node.js" src="/.github/GuiaPress_page-0001.jpeg" width="50%">
+ 
 </p>
 <p align="center">
  <h1>Tela Leitura de artigos.</h1>
-   <p>Nesta tela </p>
+   <p>Nesta tela é possivel realizar a leitura do Artigo </p>
   <img alt="Tela criação de categoria." src="./Leitura%20de%20Artigos_page-0001.jpg" width="50%">
 </p>
 
 <p align="center">
  <h1>Tela criação de categoria.</h1>
+ <p>Nesta tela é possivel realizar a criação/edição/exclusão do Artigo </p>
   <img alt="Tela criação de categoria." src="./Tela%20para%20cria%C3%A7%C3%A3o%20de%20categorias_page-0001.jpg" width="50%">
 </p>
 <p align="center">
  <h1>Tela edição de artigos.</h1>
+ <p>Nesta tela é possivel realizar edição de um arquivo já criado, nele sendo permitido formatações de textos, adicionar imagens e link, videos, tabelas e várias funcionalidades de um editor de texto moderno. </p>
   <img alt="Tela criação de categoria." src="./Tela%20edi%C3%A7%C3%A3o%20de%20artigos.jpg" width="50%">
 </p>
 <p align="center">
  <h1>Tela de administração de usuários.</h1>
+ <p>Nesta tela é possivel realizar manutenção dos usuários: criação/edição e exclusão </p>
   <img alt="Tela criação de categoria." src="./Administra%C3%A7%C3%A3o%20de%20usu%C3%A1rios.jpg" width="50%">
 </p>
 
