@@ -54,24 +54,24 @@ Neste projeto foi realizado a criação de um Blog nele é possivel criar artigo
 <p align="center">
   <h1>Tela inicial.</h1>
   <p>Nesta tela é apresentado uma lista dos ultimos artigos criados. Nela também temos um jumbotron onde pos ser colocado uma mensagem personalisada na Homepage do Blog.</p>
-  <img alt="Projeto Blog com Node.js" src=".github/GuiaPress_page-0001.jpeg" width="50%">
+  <img alt="Projeto Blog com Node.js" src="./GuiaPress_page-0001.jpeg" width="50%">
 </p>
 <p align="center">
  <h1>Tela Leitura de artigos.</h1>
    <p>Nesta tela </p>
-  <img alt="Tela criação de categoria." src=".github/Leitura%20de%20Artigos_page-0001.jpg" width="50%">
+  <img alt="Tela criação de categoria." src="./Leitura%20de%20Artigos_page-0001.jpg" width="50%">
 </p>
 
 <p align="center">
  <h1>Tela criação de categoria.</h1>
-  <img alt="Tela criação de categoria." src=".github/Tela%20para%20cria%C3%A7%C3%A3o%20de%20categorias_page-0001.jpg" width="50%">
+  <img alt="Tela criação de categoria." src="./Tela%20para%20cria%C3%A7%C3%A3o%20de%20categorias_page-0001.jpg" width="50%">
 </p>
 <p align="center">
  <h1>Tela edição de artigos.</h1>
-  <img alt="Tela criação de categoria." src=".github/Tela%20edi%C3%A7%C3%A3o%20de%20artigos.jpg" width="50%">
+  <img alt="Tela criação de categoria." src="./Tela%20edi%C3%A7%C3%A3o%20de%20artigos.jpg" width="50%">
 </p>
 <p align="center">
  <h1>Tela de administração de usuários.</h1>
-  <img alt="Tela criação de categoria." src=".github/Administra%C3%A7%C3%A3o%20de%20usu%C3%A1rios.jpg" width="50%">
+  <img alt="Tela criação de categoria." src="./Administra%C3%A7%C3%A3o%20de%20usu%C3%A1rios.jpg" width="50%">
 </p>
 
