@@ -99,6 +99,7 @@ router.post("/articles/update", (req, res) =>{
 });
 //-----------------------------------------------//
 
+// Route to article page 
 router.get("/articles/page/:num", (req,res) =>{
     var page = req.params.num;
 
