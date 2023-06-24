@@ -1,3 +1,5 @@
+// Create middleware to control where the section is required in the route.
+
 const session = require("express-session");
 
 

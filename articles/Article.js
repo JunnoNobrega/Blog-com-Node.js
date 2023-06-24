@@ -20,6 +20,7 @@ const Article = connection.define('articles', {
 Category.hasMany(Article); // Tem muitos
 Article.belongsTo(Category); // Um artigo pertence a uma categoria
 
+//Article.sync({force:true}); --> activate on first use to be created in database. 
 
 // export the module Articles
 module.exports = Article;

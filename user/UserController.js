@@ -1,3 +1,5 @@
+// This module create the page of administrator for Users.
+
 const express = require("express");
 const router = express.Router();
 const User = require("./User");
@@ -77,7 +79,7 @@ router.get("/logout", (req, res) =>{
     res.redirect("/");
 })
 
-// Route for delet users
+// Route for delete users
 router.post("/users/delete", adminAuth, (req,res) =>{
     var id =req.body.id;
     if(id != undefined){
@@ -92,7 +94,7 @@ router.post("/users/delete", adminAuth, (req,res) =>{
                 console.log(err);
                 res.redirect("/admin/users");
             })
-        }else{ //Não for um número
+        }else{ //is not number
             res.redirect("/admin/users")
         }
     }else { // Null
@@ -130,6 +132,6 @@ router.post("/users/update", adminAuth,(req,res)=>{
 
 });
 
-
+//Export Module router
 
 module.exports = router; 

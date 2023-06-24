@@ -1,4 +1,4 @@
-// This page create all routes to page Articles , used for create , delete and edit thems.
+// This module create all routes to page Articles , used for create , delete and edit thems.
 
 // Imports
 const express = require("express");
@@ -43,7 +43,7 @@ router.post("/articles/save",(req,res) =>{
 })
 // ------------------------------------------//
 
-// Route for Delete article on homepage
+// Route for Delete article on index of articles
 router.post("/articles/delete", (req,res) =>{
     var id =req.body.id;
     if(id != undefined){
@@ -133,6 +133,8 @@ router.get("/articles/page/:num", (req,res) =>{
        console.log(result);
     })
 })
+//-----------------------------------------------//
+
 
 // Exporte o module router. 
 module.exports = router;

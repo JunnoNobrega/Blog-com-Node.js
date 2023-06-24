@@ -1,4 +1,4 @@
-// This page create connection on data base and create the table Categories in database
+// This module create connection on data base and create the table Categories in database
 
 // Imports
 const Sequelize = require("sequelize");
@@ -15,6 +15,8 @@ const Category = connection.define('categories', {
     }
 })
 // ---------------------//
+
+//Create.sync({force:true});  --- activate on first use to be created in database.
 
 // exporte module Category 
 module.exports = Category;

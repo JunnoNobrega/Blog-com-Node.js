@@ -6,7 +6,6 @@ const connection = require("./database/database");
 const session = require("express-session");
 const cntFlash = require("connect-flash");
 
-
 const categoriesController = require("./categories/CategoriesController");
 const articlesController = require("./articles/ArticlesController");
 const usersController = require("./user/UserController");
@@ -18,8 +17,6 @@ const User = require("./user/User");
 app.set('view engine','ejs');
 
 // Section ativate
-
-
 app.use(session({
     secret: "qualquercoisa", cookie: { maxAge: 3000000 }
 }));
@@ -43,7 +40,7 @@ connection
         console.log(error);
     })
 //------------------//
-// imports controllers  src : articles/ Articles Controlls and src: categories/ CategoriesControlers
+// imports controllers  src : articles/ Articles Controlls - src: categories/ CategoriesControlers and src: users/ UserController
 // import the controlers to control Articles and Categories pages and set this vars. 
 app.use("/" , categoriesController);
 app.use("/" , articlesController);
@@ -110,5 +107,5 @@ app.get("/category/:slug", (req, res) =>{
 
 // Start the serve on port 8080
 app.listen(8080,() =>{
-    console.log("O servidor está funcionando! ")
+    console.log("The server is started!!! ")
 })

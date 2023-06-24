@@ -1,4 +1,4 @@
-// This page create the page of administrado for categories
+// This module create the page of administrator for categories
 
 // Imports
 const express = require("express");
@@ -51,7 +51,7 @@ router.post("/categories/delete", (req,res) =>{
                 res.redirect("/admin/categories");
                 
             })
-        }else{ //Não for um número
+        }else{ //Is not a number
             res.redirect("/admin/categories")
         }
     }else { // Null
