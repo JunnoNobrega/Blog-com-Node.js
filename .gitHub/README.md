@@ -79,5 +79,26 @@ Neste projeto foi realizado a criação de um Blog nele é possivel criar artigo
  <h1>Tela de administração de usuários.</h1>
  <p>Nesta tela é possivel realizar manutenção dos usuários: criação/edição e exclusão </p>
   <img alt="Tela criação de categoria." src="./Administra%C3%A7%C3%A3o%20de%20usu%C3%A1rios.jpg" width="50%">
-</p>
+<code>
+<br>
+Possiveis/futuras melhorias: <br> 
+   {
+<br>
+--> () Sitema de login individual onde cada pessoa pode entrar e criar seus próprios artigos e categorias.
+<br>
+ --> () Tela de cadastro para o usuário realizar o seu cadastro no sistema.
+<br>
+ --> () Rotas para recuperação/alteração de senha.
+<br>
+ --> () Melhorar a marcação de páginas tela de vizualização de artigos.
+<br>
+ --> () Inserir data da criação dos artigos e categorias.
+<br>
+ --> () Sistema para adição de comentários nos arquivos.
+<br>
+ --> () Sistema para vizualização de visitas e avaliação (curtidas) na postagem.
+<br>
 
+}
+</code>
+<p> Realizado essas modificações deixaria de ser apenas um Blog e se tornaria um forum com interação de usuários. </p>
